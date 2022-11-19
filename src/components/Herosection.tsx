@@ -40,7 +40,7 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-  <div className="w-full object-cover  lg:w-full md:h-screen bg-cover bg-center bg-[url('https://penthouse.finance/wp-content/uploads/2022/05/6276f8a0b7802563911ad7ed_collov-home-design-Pf-GjKfYGO4-unsplash-p-1080.jpeg')]" ></div>
+  <div className="w-full object-cover  lg:w-full md:h-screen bg-cover bg-center bg-heroimage" ></div>
   
 </div>
 

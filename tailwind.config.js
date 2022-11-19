@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         "primary": "#faf7f4",
         "secondary": "#ffc800",
-      }
+      }, 
+      backgroundImage: theme => ({
+        heroimage : "url('/src/images/hero.jpeg')",
+      })
     },
   },
   plugins: [],
