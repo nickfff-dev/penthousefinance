@@ -5,7 +5,7 @@
 
 const Herosection = () => { 
   return (
-  <div className="grid grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-secondary border-black mb-8">
+  <div className="grid grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-secondary border-black">
   
   <div className="flex items-center justify-center">
     <main className="max-w-screen-xl px-4 lg:px-16">
