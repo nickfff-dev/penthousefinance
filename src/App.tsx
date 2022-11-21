@@ -7,7 +7,7 @@ import WhatYouGet from './components/WhatYouGet';
 function App() {
   
   return (
-    <div className="dark:bg-gray-900"><Header />
+    <div className="dark:bg-[#191511]"><Header />
       <Herosection />
       <AfterHero />
       <WhatYouGet />
