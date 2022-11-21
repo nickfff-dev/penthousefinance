@@ -55,7 +55,7 @@ const stickyOnScroll = () => {
 
       <div className="md:mx-5 flex items-center justify-between p-4 ">
         <div className="flex md:order-3 order-2 justify-between">
-          <button type="button" className="text-black dark:text-primary dark:hover:text-black  shadow uppercase md:text-lg bg-secondary hover:bg-black focus:ring-4 md:mr-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-1.5 text-center  md:mr-0 dark:bg-secondary  ">Join Us</button>
+          <button type="button" className="text-black dark:text-black dark:hover:text-black  shadow uppercase md:text-lg bg-secondary dark:bg-yellow-200 hover:bg-black  dark:hover:bg-secondary focus:ring-4 md:mr-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-1.5 text-center  md:mr-0 dark:bg-secondary  ">Join Us</button>
           <button data-collapse-toggle="navbar-cta" onClick={() => {
            toggleMenu();
           }} type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
