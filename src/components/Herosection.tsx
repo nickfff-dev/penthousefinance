@@ -1,15 +1,15 @@
 
-
+import mine  from "../images/hero.jpeg"
 
 
 
 const Herosection = () => { 
   return (
-  <div className="grid grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-secondary border-black">
+  <div className="grid  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-secondary border-black">
   
-  <div className="flex items-center justify-center">
-    <main className="max-w-screen-xl px-4 lg:px-16">
-        <div className="text-left flex-col space-y-6">
+  <div className="flex items-start justify-center">
+    <main className="max-w-screen-xl py-8 p-4 lg:px-16">
+        <div className="text-left flex-col space-y-8">
           <h2 className="text-5xl    text-secondary  sm:leading-none ">
               GENERATE PASSIVE INCOME FROM
        
@@ -40,7 +40,9 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-  <div className="w-full object-cover  lg:w-full md:h-screen bg-cover bg-center bg-heroimage" ></div>
+      <div className="p-6"  >
+        <img src={ mine} className="rounded-xl max-w-full h-auto"/>
+  </div>
   
 </div>
 
