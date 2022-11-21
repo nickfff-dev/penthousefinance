@@ -6,10 +6,10 @@ import BgGlassmorphism from "./BgGlassMorphism"
 
 const Herosection = () => { 
   return (
-  <div className="grid  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-gray-200 border-black">
-    <BgGlassmorphism />
-      <div className="flex items-start justify-center">
-    
+  <div className="grid relative  -z-10  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-gray-200 border-black">
+  
+      <div className="flex items-start justify-center relative">
+      <BgGlassmorphism />
         <main className="max-w-screen-xl p-4 lg:px-16">
         
           <div className="text-left  flex-col space-y-10">
