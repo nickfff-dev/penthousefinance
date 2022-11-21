@@ -3,15 +3,31 @@
 
 const WaysCoinvest = () => { 
   return (
-    <div className="m-5 p-4 rounded-3xl dark:bg-black bg-primary">
-      <h1>THE EASIEST WAY TO CO-INVEST IN REAL ESTATE</h1>
-      <div className="grid md:grid-cols-4 sm:grid-cols-1 gap-5 p-6 items-start mb-3 ">
-      <p className="px-8 lg:text-lg dark:text-gray-300 text-sm">Penthouse is for people who want to invest in vacation rental properties – but don’t want to buy a whole home, don’t have the financial capability to buy an entire property, and/or don’t want to deal with the headaches that go along with it.</p>
-      <p className="px-8 lg:text-lg dark:text-gray-300">We analyse thousands of premium holiday rental properties to pick out the ones with the most upside. We manage everything for you, from finding tenants to handling repairs. And best of all, we make it easy for you to get started in just a few minutes.</p>
+    <div className="m-5 p-8 rounded-3xl dark:bg-black bg-primary">
+      <h1 className="text-center lg:text-4xl mb-3 ">THE EASIEST WAY TO CO-INVEST IN REAL ESTATE</h1>
+      <div className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-5 p-6 items-start mb-3 ">
+        <div className="lg:text-left sm:text-center p-4">
+          <p className="dark:text-black dark:bg-yellow-100 bg-[#66584a] px-4 py-1 inline-block  text-xl text-primary font-medium rounded mb-5">1</p>
+            <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Join our Waitlist</h3>
+<p className="dark:text-primary text-md">Sign up to join our waitlist. When an investment opportunity comes up, we’ll notify you and you’ll have a chance to participate.</p>
+        </div>
+        <div className="lg:text-left sm:text-center p-4">
+          <p className="dark:text-black dark:bg-yellow-100 bg-[#66584a] px-4 py-1 inline-block  text-xl text-primary font-medium rounded mb-5">2</p>
+            <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Select NFT</h3>
+<p className="dark:text-primary text-md">Determine how much money you want to invest and select your NFT.</p>
+        </div>
+        <div className="lg:text-left sm:text-center p-4">
+          <p className="dark:text-black dark:bg-yellow-100 bg-[#66584a] px-4 py-1 inline-block  text-xl text-primary font-medium rounded mb-5">3</p>
+            <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Receive Shares</h3>
+<p className="dark:text-primary text-md">Review the terms, sign electronically, and fund your investment.</p>
+        </div>
+        <div className="lg:text-left sm:text-center p-4">
+          <p className="dark:text-black dark:bg-yellow-100 bg-[#66584a] px-4 py-1 inline-block  text-xl text-primary font-medium rounded mb-5">4</p>
+            <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Join our Waitlist</h3>
+<p className="dark:text-primary lg:text-md">Earn your share of rental income and property appreciation while Penthouse manages the properties.</p>
+          </div>
       </div>
-<div className="flex flex-col justify-center items-center">      <a href="/" className=" px-8 py-3  uppercase dark:text-black text-base leading-6 font-medium rounded-full text-white bg-secondary hover:bg-black hover:text-secondary focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-              Get Started
-              </a></div>
+
     </div>
   )
 }
