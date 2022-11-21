@@ -6,25 +6,25 @@ import BgGlassmorphism from "./BgGlassMorphism"
 
 const Herosection = () => { 
   return (
-  <div className="grid relative  -z-10  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-gray-200 border-black">
+  <div className="grid relative m-5 rounded-3xl   grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 ">
   
       <div className="flex items-start justify-center relative">
       <BgGlassmorphism />
         <main className="max-w-screen-xl p-4 lg:px-16">
         
-          <div className="text-left  flex-col space-y-10">
+          <div className="text-left  flex-col space-y-9">
           
-          <h2 className="text-5xl    text-secondary dark:text-yellow-300    sm:leading-none ">
+          <h2 className="text-5xl    text-secondary dark:text-yellow-200    sm:leading-none ">
               GENERATE PASSIVE INCOME FROM
        
             </h2>
-            <h2 className="text-5xl tracking-tight   text-secondary dark:text-yellow-300   sm:leading-none ">
+            <h2 className="text-5xl tracking-tight   text-secondary dark:text-yellow-200   sm:leading-none ">
               
               HIGH RETURN RENTAL PROPERTIES 
             
        
             </h2>
-            <h2 className="text-5xl tracking-tight  dark:text-yellow-300   text-secondary  sm:leading-none">
+            <h2 className="text-5xl tracking-tight  dark:text-yellow-200   text-secondary  sm:leading-none">
               
             AT A FRACTION OF THE COST
             
