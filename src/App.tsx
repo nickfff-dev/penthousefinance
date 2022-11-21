@@ -6,17 +6,20 @@ import WhatYouGet from './components/WhatYouGet';
 import WaysCoinvest from './components/WaysCoinvest';
 import OurGoal from './components/OurGoal';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
 
 function App() {
   
   return (
-    <div className="dark:bg-[#191511]"><Header />
+    <div className="dark:bg-[#191511]">
+      <Header />
       <Herosection />
       <AfterHero />
       <WhatYouGet />
       <WaysCoinvest />
       <OurGoal />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
