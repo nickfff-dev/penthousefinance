@@ -44,13 +44,13 @@ const WhatYouGet = () => {
 <p className="dark:text-primary text-sm">Invest anywhere from 100 USDC to 20,000 USDC per house and build a portfolio across several properties.</p>
           </div>
         </div>
-
- 
+       <div className="lg:mx-0 sm:mx-auto lg:pl-4"> <a href="/" className="uppercase  flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-white hover:text-black bg-secondary  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 ">
+                Learn More
+              </a>
+ </div>
 
         </div>
-        <div className="grid grid-cols-1">     <a href="/" className=" mx-auto uppercase flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-black bg-secondary  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 ">
-                Learn More
-              </a></div>
+      
    </div>
    
   
