@@ -31,7 +31,7 @@ const Herosection = () => {
           </p>
           <div className="mt-5 sm:mt-8 sm:flex justify-start">
             <div className="rounded-full shadow">
-              <a href="/" className="w-full flex items-center justify-center px-8 py-3  text-base leading-6 font-medium rounded-full text-white bg-secondary hover:bg-black hover:text-secondary focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 dark:text-black">
+              <a href="/" className="w-full flex items-center justify-center px-8 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary hover:bg-black hover:text-secondary focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 dark:text-black">
                 Reserve Your Seat
               </a>
             </div>
