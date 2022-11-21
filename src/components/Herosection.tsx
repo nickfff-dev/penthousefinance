@@ -8,8 +8,8 @@ const Herosection = () => {
   <div className="grid  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-secondary border-black">
   
   <div className="flex items-start justify-center">
-    <main className="max-w-screen-xl py-8 p-4 lg:px-16">
-        <div className="text-left flex-col space-y-8">
+    <main className="max-w-screen-xl p-4 lg:px-16">
+        <div className="text-left flex-col space-y-10">
           <h2 className="text-5xl    text-secondary  sm:leading-none ">
               GENERATE PASSIVE INCOME FROM
        
@@ -40,8 +40,8 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-      <div className="p-6"  >
-        <img src={ mine} className="rounded-xl max-w-full h-auto"/>
+      <div className="mr-6 pt-5 pb-4"  >
+        <img src={ mine} className="rounded-xl max-w-full h-auto" alt="hero"/>
   </div>
   
 </div>

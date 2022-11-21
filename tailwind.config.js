@@ -9,7 +9,8 @@ module.exports = {
         "secondary": "#ffc800",
       }, 
       backgroundImage: theme => ({
-        heroimage : "url('/src/images/hero.jpeg')",
+        heroimage: "url('/src/images/hero.jpeg')",
+        glass: "url('/src/components/BgGlassMorphism.tsx')",
       })
     },
   },
