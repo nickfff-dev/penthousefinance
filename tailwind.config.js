@@ -10,7 +10,7 @@ module.exports = {
       }, 
       backgroundImage: theme => ({
         heroimage: "url('/src/images/hero.jpeg')",
-        glass: "url('/src/components/BgGlassMorphism.tsx')",
+       ourgoal: "url('/src/images/ourgoal.jpeg')",
       })
     },
   },

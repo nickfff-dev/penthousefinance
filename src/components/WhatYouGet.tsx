@@ -16,32 +16,32 @@ const WhatYouGet = () => {
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-6 items-start">
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Consistent Passive Income</h3>
-<p className="dark:text-primary text-sm">Earn rental income and receive deposits quarterly. Penthouse acquires and manages your properties so you don’t have to do anything.</p>
+<p className="dark:text-primary text-sm leading-relaxed">Earn rental income and receive deposits quarterly. Penthouse acquires and manages your properties so you don’t have to do anything.</p>
           </div>
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">High-Yield</h3>
-<p className="dark:text-primary text-sm">Our properties are located in stable high appreciation and high cash-flowing vacation markets that deliver a strong long-term return.</p>
+<p className="dark:text-primary text-sm leading-relaxed">Our properties are located in stable high appreciation and high cash-flowing vacation markets that deliver a strong long-term return.</p>
           </div>
         </div>
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 items-start">
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Fractional Ownership</h3>
-<p className="dark:text-primary text-sm">Shares are offered in select vacation rentals – this results in a lower barrier to entry and lower cost of diversification.</p>
+<p className="dark:text-primary text-sm leading-relaxed">Shares are offered in select vacation rentals – this results in a lower barrier to entry and lower cost of diversification.</p>
           </div>
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Modern Technology, Traditional Finance</h3>
-<p className="dark:text-primary text-sm">Gain the advantage of Non-Fungible Token (NFT) technology while keeping the yields and consistency of real estate.</p>
+<p className="dark:text-primary text-sm leading-relaxed">Gain the advantage of Non-Fungible Token (NFT) technology while keeping the yields and consistency of real estate.</p>
           </div>
         </div>
 
         <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 items-start">
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Diversify with Real Estate</h3>
-<p className="dark:text-primary text-sm" >Access historically consistent returns with low correlation to either the crypto market or the stock market.</p>
+<p className="dark:text-primary text-sm leading-relaxed" >Access historically consistent returns with low correlation to either the crypto market or the stock market.</p>
           </div>
           <div className="lg:text-left sm:text-center p-4">
             <h3 className="lg:text-xl font-semibold mb-3 dark:text-gray-300">Flexible Investment Amounts</h3>
-<p className="dark:text-primary text-sm">Invest anywhere from 100 USDC to 20,000 USDC per house and build a portfolio across several properties.</p>
+<p className="dark:text-primary text-sm leading-relaxed">Invest anywhere from 100 USDC to 20,000 USDC per house and build a portfolio across several properties.</p>
           </div>
         </div>
        <div className="lg:mx-0 sm:mx-auto lg:pl-4"> <a href="/" className="uppercase  dark:hover:bg-secondary flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-white dark:text-black hover:text-black bg-secondary dark:bg-yellow-200  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 ">
