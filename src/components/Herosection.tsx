@@ -6,10 +6,10 @@ import BgGlassmorphism from "./BgGlassMorphism"
 
 const Herosection = () => { 
   return (
-  <div className="grid relative m-5 rounded-3xl   grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 ">
-  
+  <div className="grid relative m-5 rounded-3xl   grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 md:grid-rows-1 sm:grid-cols-2 gap-4 ">
+       <BgGlassmorphism />
       <div className="flex items-start justify-center relative">
-      <BgGlassmorphism />
+ 
         <main className="max-w-screen-xl p-4 lg:px-16">
         
           <div className="text-left  flex-col space-y-9">
@@ -35,7 +35,7 @@ const Herosection = () => {
           </p>
           <div className="mt-5 sm:mt-8 sm:flex justify-start">
             <div className="rounded-full shadow">
-              <a href="/" className="w-full flex items-center justify-center px-8 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 dark:text-black">
+              <a href="/" className="w-full flex items-center justify-center px-8 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 dark:text-black">
                 Reserve Your Seat
               </a>
             </div>
