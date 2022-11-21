@@ -40,8 +40,8 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-      <div className="mr-6 pt-5 pb-4"  >
-        <img src={ mine} className="rounded-xl max-w-full h-auto" alt="hero"/>
+      <div className="mr-6 pt-5 pb-5"  >
+        <img src={ mine} className="rounded-3xl max-w-full h-auto" alt="hero"/>
   </div>
   
 </div>
