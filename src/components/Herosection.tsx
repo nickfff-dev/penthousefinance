@@ -1,15 +1,19 @@
 
-import mine  from "../images/hero.jpeg"
+import mine from "../images/hero.jpeg"
+import BgGlassmorphism from "./BgGlassMorphism"
 
 
 
 const Herosection = () => { 
   return (
   <div className="grid  grid-flow-row bg-primary dark:bg-black grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 border-b dark:border-gray-200 border-black">
-  
-  <div className="flex items-start justify-center">
-    <main className="max-w-screen-xl p-4 lg:px-16">
-        <div className="text-left flex-col space-y-10">
+    <BgGlassmorphism />
+      <div className="flex items-start justify-center">
+    
+        <main className="max-w-screen-xl p-4 lg:px-16">
+        
+          <div className="text-left  flex-col space-y-10">
+          
           <h2 className="text-5xl    text-secondary dark:text-yellow-300    sm:leading-none ">
               GENERATE PASSIVE INCOME FROM
        
