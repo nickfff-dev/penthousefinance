@@ -14,17 +14,17 @@ const Herosection = () => {
         
           <div className="text-left  flex-col space-y-9">
           
-          <h2 className="text-5xl    text-secondary dark:text-yellow-100    sm:leading-none ">
+          <h2 className="text-5xl   text-secondary dark:text-yellow-100 tracking-normal   sm:leading-none ">
               GENERATE PASSIVE INCOME FROM
        
             </h2>
-            <h2 className="text-5xl tracking-tight   text-secondary dark:text-yellow-100   sm:leading-none ">
+            <h2 className="text-5xl    text-secondary dark:text-yellow-100   tracking-normal  sm:leading-none ">
               
               HIGH RETURN RENTAL PROPERTIES 
             
        
             </h2>
-            <h2 className="text-5xl tracking-tight  dark:text-yellow-100   text-secondary  sm:leading-none">
+            <h2 className="text-5xl   dark:text-yellow-100   text-secondary tracking-normal  sm:leading-none">
               
             AT A FRACTION OF THE COST
             
