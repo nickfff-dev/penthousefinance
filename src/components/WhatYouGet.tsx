@@ -5,9 +5,9 @@
 
 const WhatYouGet = () => {
   return (
-    <div className="m-5 rounded-3xl p-6 grid  lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 bg-primary dark:bg-bdark    dark:border-gray-200 border-black">
-      <div className="pt-5 mx-auto pb-5"  >
-        <img src="https://penthouse.finance/wp-content/uploads/2022/05/6276f994883474700c245a6b_spacejoy-3z_61bnbFhM-unsplash-p-800.jpeg" className="rounded-3xl max-w-full h-auto" alt="hero" />
+    <div className="m-5 rounded-3xl  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 bg-primary dark:bg-bdark    dark:border-gray-200 border-black">
+      <div className="bg-whatimg pb-5  lg:h-auto bg-cover bg-center bg-no-repeat mobile:h-[300px] relative"  >
+       
       </div>
       <div className="p-4 space-x-4 space-y-4">
         <h1 className=" text-4xl text-center w-full mb-8 dark:text-yellow-100">WITH PENTHOUSE, YOU GET:</h1>
