@@ -44,7 +44,7 @@ const WhatYouGet = () => {
               <p className="dark:text-primary text-sm leading-relaxed text-center lg:text-left md:text-center sm:text-center ">Invest anywhere from 100 USDC to 20,000 USDC per house and build a portfolio across several properties.</p>
             </div>
           </div>
-          <div className="lg:mx-0 sm:mx-auto lg:pl-4"> <a href="/" className="uppercase  dark:hover:bg-secondary flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-white dark:text-black hover:text-black bg-secondary dark:bg-yellow-200  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 ">
+          <div className="lg:mx-0 mx-auto w-1/2 sm:mx-auto lg:pl-4 sm:mx-auto md:mx-auto"> <a href="/" className="uppercase  dark:hover:bg-secondary flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-white dark:text-black hover:text-black bg-secondary dark:bg-yellow-200  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 ">
             Learn More
           </a>
           </div>
