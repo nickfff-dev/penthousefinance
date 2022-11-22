@@ -1,28 +1,22 @@
 
 import Header from './components/Header'
-import Herosection from './components/Herosection';
-import AfterHero from './components/AfterHero';
-import WhatYouGet from './components/WhatYouGet';
-import WaysCoinvest from './components/WaysCoinvest';
-import OurGoal from './components/OurGoal';
-import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
-import Timeline from './components/Timeline';
+import HomePage from './pages/HomePage';
+import HowItWorks from './pages/HowItWorks';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   
   return (
-    <div className="dark:bg-black">
-      <Header />
-      <Herosection />
-      <AfterHero />
-      <Timeline />
-      <WhatYouGet />
-      <WaysCoinvest />
-      <OurGoal />
-      <Subscribe />
+    <Router>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+      </Routes>
       <Footer />
-    </div>
+      </Router>
+    
   );
 }
 
