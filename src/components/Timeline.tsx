@@ -15,21 +15,24 @@ const DEMO_DATA = [
   img:  Img1,
   imgDark:  Img1,
   title: "Whitelist Cutoff",
-  desc: "Sign ups for early investor exclusive promotions close shortly before the protocol launch. Dec 10",
+    desc: "Sign ups for early investor exclusive promotions close shortly before the protocol launch  ",
+  date: "Dec 10"
 },
 {
   id: 2,
   img:  Img2,
   imgDark:  Img2,
   title: "Limited Token Launch",
-  desc: "Penthouse auctions its limited number of tokens to raise for early protocol growth Dec 12",
+  desc: "Penthouse auctions its limited number of tokens to raise for early protocol growth",
+  date: "Dec 12"
   },
   {
     id: 3,
     img: Img3,
     imgDark: Img3,
     title: "Real Estate Flash Sale",
-    desc: "Co-invest in high return holiday rental properties at a discount by the 14th, or at your leisure at any time.Dec 14",
+    desc: "Co-invest in high return holiday rental properties at a discount by the 14th, or at your leisure at any time.",
+    date: "Dec 14"
   },
   {
     id: 4,
@@ -48,9 +51,9 @@ const Timeline: FC<TimelineProps> = ({
       className={`nc-SectionHowItWork  ${className}`}
       data-nc-id="SectionHowItWork"
     >
-      <div className="relative  grid sm:grid-cols-2 lg:grid-cols-4 gap-10 items-start sm:gap-16 xl:gap-20">
+      <div className="relative  grid sm:grid-cols-2 lg:grid-cols-4  gap-6 items-start justify-center ">
       <img
-          className="hidden md:block absolute top-0  object-cover"
+          className="lg:block md:hidden absolute -top-3 mobile:hidden sm:hidden   object-cover w-full"
           src={VectorImg}
           alt="vector"
         />
@@ -58,17 +61,22 @@ const Timeline: FC<TimelineProps> = ({
           data.map((item: typeof DEMO_DATA[number], index: number) => (
             <div
             key={item.id}
-            className="relative flex flex-col items-center max-w-xs mx-auto"
+            className="relative flex flex-col items-center gap-5 mx-auto"
             >
-              <div className="mb-5 sm:mb-10 lg:mb-20 max-w-[100px] mx-auto">    <img src={item.img} alt={item.title} /></div>
+              <div className="mb-5 sm:mb-10 lg:mb-20 max-w-[100px] mx-auto">
+                <img src={item.img} alt={item.title} /></div>
               <span className="nc-Badge inline-flex px-2.5 py-1 mb-4 rounded-full text-black font-medium text-xs bg-yellow-100">{`Step: ${item.id}` }</span>
-              <div className="text-center mt-auto space-y-5">
+              <div className="text-center mb-8">
                 <h3 className="text-lg font-semibold  dark:text-yellow-100">{item.title}</h3>
-                <span className="block text-neutral-500 dark:text-gray-300">
+                <p className="text-neutral-500 dark:text-gray-300">
                 {item.desc}
-              </span>
+                </p>
+                <p className="text-gray-600 dark:text-yellow-100 mt-5">
+                {item.date}
+                </p>
+                
               </div>
-              
+             
           </div>
           ))
         }
