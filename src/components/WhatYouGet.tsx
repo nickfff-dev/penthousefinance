@@ -5,7 +5,7 @@
 
 const WhatYouGet = () => {
   return (
-    <div className="m-5 rounded-3xl p-6 grid grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 bg-primary dark:bg-black    dark:border-gray-200 border-black">
+    <div className="m-5 rounded-3xl p-6 grid  lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 bg-primary dark:bg-black    dark:border-gray-200 border-black">
       <div className="pt-5 mx-auto pb-5"  >
         <img src="https://penthouse.finance/wp-content/uploads/2022/05/6276f994883474700c245a6b_spacejoy-3z_61bnbFhM-unsplash-p-800.jpeg" className="rounded-3xl max-w-full h-auto" alt="hero" />
       </div>
