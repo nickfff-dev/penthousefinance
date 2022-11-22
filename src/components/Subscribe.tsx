@@ -2,7 +2,7 @@
 import subimage from "../images/subscribeimg.jpeg"
 const Subscribe = () => { 
   return (
-    <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-5 items-start lg:items-center md:items-start sm:items-start p-4 m-5 dark:bg-black rounded-3xl bg-primary">
+    <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1  gap-5 items-start lg:items-center md:items-start sm:items-start p-4 m-5 dark:bg-bdark rounded-3xl bg-primary">
 
       <div className="flex flex-col justify-start items-start gap-8 p-4">
         <h1 className="text-xl font-medium text-left dark:text-primary">Be the first to access our best pre-vetted properties.</h1>

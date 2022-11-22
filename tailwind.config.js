@@ -7,10 +7,12 @@ module.exports = {
       colors: {
         "primary": "#faf7f4",
         "secondary": "#ffc800",
+        "bdark": "#202124"
       }, 
       backgroundImage: theme => ({
         heroimage: "url('/src/images/hero.jpeg')",
-       ourgoal: "url('/src/images/ourgoal.jpeg')",
+        ourgoal: "url('/src/images/ourgoal.jpeg')",
+      
       })
     },
   },

@@ -3,7 +3,7 @@
 
 const WaysCoinvest = () => { 
   return (
-    <div className="m-5 p-8 rounded-3xl dark:bg-black bg-primary">
+    <div className="m-5 p-8 rounded-3xl dark:bg-bdark bg-primary">
       <h1 className="text-center lg:text-4xl mb-3 dark:text-primary ">THE EASIEST WAY TO CO-INVEST IN REAL ESTATE</h1>
       <div className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 gap-5 p-6 items-start mb-3 ">
         <div className=" p-4 text-center lg:text-left md:text-center sm:text-center">

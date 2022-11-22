@@ -51,7 +51,7 @@ const stickyOnScroll = () => {
     console.log(show)
   }
   return (
-    <nav className="z-10 bg-primary dark:bg-black border-b border-yellow-100 " id="navbar">
+    <nav className="z-10 bg-primary dark:bg-bdark border-b border-yellow-100 " id="navbar">
 
       <div className="flex items-center justify-between p-4 ">
         <div className="flex  md:order-3 order-2">

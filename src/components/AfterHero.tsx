@@ -3,7 +3,7 @@
 
 const AfterHero = () => { 
   return (
-    <div className="m-5 p-4 rounded-3xl dark:bg-black bg-primary">
+    <div className="m-5 p-4 rounded-3xl dark:bg-bdark bg-primary">
       <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-5 p-6 items-start mb-3 ">
       <p className="px-8 lg:text-lg dark:text-gray-300 text-sm">Penthouse is for people who want to invest in vacation rental properties – but don’t want to buy a whole home, don’t have the financial capability to buy an entire property, and/or don’t want to deal with the headaches that go along with it.</p>
       <p className="px-8 lg:text-lg dark:text-gray-300 text-sm" >We analyse thousands of premium holiday rental properties to pick out the ones with the most upside. We manage everything for you, from finding tenants to handling repairs. And best of all, we make it easy for you to get started in just a few minutes.</p>

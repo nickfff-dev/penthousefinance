@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <div className="dark:bg-[#191511]">
+    <div className="dark:bg-black">
       <Header />
       <Herosection />
       <AfterHero />
