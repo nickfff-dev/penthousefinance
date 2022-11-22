@@ -6,7 +6,7 @@
 const WhatYouGet = () => {
   return (
     <div className="m-5 rounded-3xl  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 bg-primary dark:bg-bdark    dark:border-gray-200 border-black">
-      <div className="bg-whatimg pb-5  lg:h-auto bg-cover bg-center bg-no-repeat mobile:h-[300px] relative"  >
+      <div className="bg-whatimg pb-5  lg:h-auto bg-cover bg-center bg-no-repeat mobile:h-[300px] relative lg:rounded-l-3xl mobile:rounded-t-3xl lg:rounded-r-none"  >
        
       </div>
       <div className="p-4 space-x-4 space-y-4">
