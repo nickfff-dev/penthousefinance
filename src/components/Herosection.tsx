@@ -8,25 +8,25 @@ const Herosection = () => {
   return (
   <div className="grid relative m-5 rounded-3xl   grid-flow-row bg-primary dark:bg-bdark grid-rows-2 sm:grid-rows-1 md:grid-rows-1 sm:grid-cols-2 gap-4 ">
        <BgGlassmorphism />
-      <div className="flex items-start justify-center relative">
+      <div className="flex items-start justify-start relative">
  
-        <main className="max-w-screen-xl p-4 lg:px-16">
+        <main className="p-6 shrink">
         
-          <div className="text-left  flex-col space-y-9">
+          <div className="text-left items-start  flex-col space-y-9">
           
           <h2 className="text-5xl   text-secondary dark:text-yellow-100 tracking-normal   sm:leading-none ">
-              GENERATE PASSIVE INCOME FROM
+              GENERATE PASSIVE <br/> INCOME FROM
        
             </h2>
             <h2 className="text-5xl    text-secondary dark:text-yellow-100   tracking-normal  sm:leading-none ">
               
-              HIGH RETURN RENTAL PROPERTIES 
+              HIGH RETURN RENTAL <br/> PROPERTIES 
             
        
             </h2>
             <h2 className="text-5xl   dark:text-yellow-100   text-secondary tracking-normal  sm:leading-none">
               
-            AT A FRACTION OF THE COST
+            AT A FRACTION OF THE <br/>  COST
             
        
           </h2>
