@@ -7,6 +7,7 @@ import WaysCoinvest from './components/WaysCoinvest';
 import OurGoal from './components/OurGoal';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
+import Timeline from './components/Timeline';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Herosection />
       <AfterHero />
+      <Timeline />
       <WhatYouGet />
       <WaysCoinvest />
       <OurGoal />
