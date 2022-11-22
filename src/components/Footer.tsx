@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 justify-items-center bg-primary gap-5 p-10 items-start mb-3 dark:bg-black dark:text-white">
         <div className="flex flex-col  items-center lg:items-start md:items-center sm:items-center gap-y-5">
           <img src="https://penthouse.finance/wp-content/uploads/2022/05/Penthouse_banner1-300x48.png" className="h-6 w-32 mr-3 sm:h-6 dark:bg-white dark:p-1" alt="footer" />
-          <a>
+          <a href="mailto:hello@penthouse.finance">
 hello@penthouse.finance</a>
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">

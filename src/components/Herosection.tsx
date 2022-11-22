@@ -1,5 +1,5 @@
 
-import mine from "../images/hero.jpeg"
+
 import BgGlassmorphism from "./BgGlassMorphism"
 
 
@@ -44,8 +44,8 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-      <div className="mr-6 pt-5 pb-5"  >
-        <img src={ mine} className="rounded-3xl max-w-full h-auto" alt="hero"/>
+      <div className="mr-6 pt-5 pb-5 bg-heroimage bg-center bg-no-repeat bg-cover"  >
+        
   </div>
   
 </div>
