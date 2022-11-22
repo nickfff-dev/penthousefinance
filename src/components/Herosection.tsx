@@ -6,9 +6,9 @@ import BgGlassmorphism from "./BgGlassMorphism"
 
 const Herosection = () => { 
   return (
-  <div className="grid relative m-5 rounded-3xl  bg-primary dark:bg-bdark grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 ">
+  <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 m-5 rounded-3xl   bg-primary dark:bg-bdark  ">
        <BgGlassmorphism />
-      <div className="flex items-start  justify-start mobile:justify-center relative">
+      <div className="flex items-start  lg:justify-start mobile:justify-center relative">
  
         <main className="p-6">
         
@@ -44,7 +44,7 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-      <div className="pt-5 pb-5 bg-heroimage bg-center bg-no-repeat bg-cover lg:h-auto mobile:h-[300px]  lg:rounded-r-3xl "  >
+      <div className="pt-5 pb-5 bg-heroimage bg-center bg-no-repeat bg-cover   lg:h-auto mobile:h-[300px]  lg:rounded-r-3xl "  >
         
   </div>
   
