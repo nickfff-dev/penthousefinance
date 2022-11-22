@@ -15,6 +15,7 @@ module.exports = {
         logo1: "url('/src/images/Penthouse1.png')",
         logo2: "url('/src/images/Penthouse2.png')",
         whatimg: "url('/src/images/what.jpeg')",
+        howbg: "url('/src/images/how.jpeg')",
       
       }),
       screens: {

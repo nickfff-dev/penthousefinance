@@ -33,7 +33,11 @@
 
 
 
-:root {
+body{
  
   font-family: Poppins;
+}
+
+body{
+  @apply dark:bg-black
 }
