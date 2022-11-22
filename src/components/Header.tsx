@@ -64,8 +64,8 @@ const stickyOnScroll = () => {
           </button>
           <SwitchDarkMode/>
         </div>
-     <div className="md:order-2 md:pl-5  md:-ml-7">   <a href="https://flowbite.com/" >
-       <img src="https://penthouse.finance/wp-content/uploads/2022/05/Penthouse_banner1-300x48.png" className=" dark:bg-white dark:p-1" alt="Flowbite Logo" />
+     <div className="md:order-2 md:-ml-7  bg-logo1 dark:bg-logo2 bg-no-repeat bg-start w-80 h-14">   <a href="https://flowbite.com/" >
+      
      
          </a></div>
         <div className={`${show ? "block" : "hidden"} items-center justify-between   md:flex  md:block md:order-1`} id="cta">

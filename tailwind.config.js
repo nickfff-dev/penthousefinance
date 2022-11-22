@@ -12,6 +12,8 @@ module.exports = {
       backgroundImage: theme => ({
         heroimage: "url('/src/images/hero.jpeg')",
         ourgoal: "url('/src/images/ourgoal.jpeg')",
+        logo1: "url('/src/images/Penthouse1.png')",
+        logo2: "url('/src/images/Penthouse2.png')",
       
       })
     },
