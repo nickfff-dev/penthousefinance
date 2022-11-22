@@ -23,7 +23,7 @@ const DEMO_DATA = [
   img:  Img2,
   imgDark:  Img2,
   title: "Limited Token Launch",
-  desc: "Penthouse auctions its limited number of tokens to raise for early protocol growth",
+  desc: "Penthouse auctions its limited number of tokens to raise money for early protocol growth",
   date: "Dec 12"
   },
   {
@@ -71,7 +71,7 @@ const Timeline: FC<TimelineProps> = ({
                 <p className="text-neutral-500 dark:text-gray-300">
                 {item.desc}
                 </p>
-                <p className="text-gray-600 dark:text-yellow-100 mt-5">
+                <p className="text-gray-600 dark:text-yellow-100 mt-5 ">
                 {item.date}
                 </p>
                 
