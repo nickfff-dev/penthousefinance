@@ -53,7 +53,7 @@ const stickyOnScroll = () => {
   return (
     <nav className="z-10 bg-primary dark:bg-bdark border-b border-yellow-100 dark:border-[#66584a] " id="navbar">
 
-      <div className="flex items-center justify-between p-4 ">
+      <div className="flex items-center justify-between p-4 gap-3">
         <div className="flex  md:order-3 order-2">
           <button type="button" className="text-black dark:text-black dark:hover:text-black hidden lg:block md:block sm:hidden shadow uppercase md:text-lg bg-secondary dark:bg-yellow-200 hover:text-white  dark:hover:bg-secondary focus:ring-4 md:mr-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-1.5 text-center  md:mr-0 dark:bg-secondary  ">Join Us</button>
           <button data-collapse-toggle="navbar-cta" onClick={() => {
@@ -64,7 +64,7 @@ const stickyOnScroll = () => {
           </button>
           <SwitchDarkMode/>
         </div>
-     <div className="md:order-2 md:-ml-12  bg-logo1 dark:bg-logo2 bg-no-repeat bg-center w-60   mobile:bg-contain h-14 "></div>
+     <div className="md:order-2 md:-ml-12  bg-logo1 dark:bg-logo2 bg-no-repeat bg-center w-60 bg-contain  mobile:bg-contain h-14 "></div>
         <div className={`${show ? "block" : "hidden"} items-center justify-between   md:flex  md:block md:order-1`} id="cta">
           <ul className="flex flex-col m-2 p-2 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8  md:mt-0 md:text-sm md:font-medium md:border-0   ">
             <li>
