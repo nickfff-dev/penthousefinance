@@ -44,7 +44,7 @@ const Herosection = () => {
         </div>
       </main>
   </div>
-      <div className="mr-6 pt-5 pb-5 bg-heroimage bg-center bg-no-repeat bg-cover"  >
+      <div className="pt-5 pb-5 bg-heroimage bg-center bg-no-repeat bg-cover rounded-3xl"  >
         
   </div>
   
