@@ -51,7 +51,7 @@ const stickyOnScroll = () => {
     console.log(show)
   }
   return (
-    <nav className="z-10 bg-primary dark:bg-bdark border-b border-yellow-100 " id="navbar">
+    <nav className="z-10 bg-primary dark:bg-bdark border-b border-yellow-100 dark:border-[#66584a] " id="navbar">
 
       <div className="flex items-center justify-between p-4 ">
         <div className="flex  md:order-3 order-2">
@@ -64,7 +64,7 @@ const stickyOnScroll = () => {
           </button>
           <SwitchDarkMode/>
         </div>
-     <div className="md:order-2 md:-ml-7  bg-logo1 dark:bg-logo2 bg-no-repeat bg-start w-80 h-14">   <a href="https://flowbite.com/" >
+     <div className="md:order-2 md:-ml-10  bg-logo1 dark:bg-logo2 bg-no-repeat bg-start w-80 h-14">   <a href="https://flowbite.com/" >
       
      
          </a></div>
