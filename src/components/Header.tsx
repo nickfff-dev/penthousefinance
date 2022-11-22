@@ -64,12 +64,9 @@ const stickyOnScroll = () => {
           </button>
           <SwitchDarkMode/>
         </div>
-     <div className="md:order-2 md:-ml-10  bg-logo1 dark:bg-logo2 bg-no-repeat bg-start w-80 h-14">   <a href="https://flowbite.com/" >
-      
-     
-         </a></div>
+     <div className="md:order-2 md:-ml-12  bg-logo1 dark:bg-logo2 bg-no-repeat bg-center w-60   mobile:bg-contain h-14 "></div>
         <div className={`${show ? "block" : "hidden"} items-center justify-between   md:flex  md:block md:order-1`} id="cta">
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8  md:mt-0 md:text-sm md:font-medium md:border-0   ">
+          <ul className="flex flex-col m-2 p-2 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8  md:mt-0 md:text-sm md:font-medium md:border-0   ">
             <li>
               <a href="/" className="block  lg:text-lg uppercase  text-gray-700  rounded   md:p-0 dark:text-white dark:hover:text-secondary" aria-current="page">How It Works</a>
             </li>
