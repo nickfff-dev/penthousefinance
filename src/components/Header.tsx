@@ -68,7 +68,7 @@ const stickyOnScroll = () => {
         <div className={`${show ? "block" : "hidden"} items-center justify-between   md:flex  md:block md:order-1`} id="cta">
           <ul className="flex flex-col m-2 p-2 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8  md:mt-0 md:text-sm md:font-medium md:border-0   ">
             <li>
-              <a href="/" className="block  lg:text-lg uppercase  text-gray-700  rounded   md:p-0 dark:text-white dark:hover:text-secondary" aria-current="page">How It Works</a>
+              <a href="/how-it-works" className="block  lg:text-lg uppercase  text-gray-700  rounded   md:p-0 dark:text-white dark:hover:text-secondary" aria-current="page">How It Works</a>
             </li>
             <li>
               <a href="/" className="block  lg:text-lg   uppercase text-gray-700 rounded    md:p-0  dark:text-white  dark:hover:text-secondary ">About Us</a>
