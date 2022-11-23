@@ -17,7 +17,9 @@ module.exports = {
         logo2: "url('/src/images/Penthouse2.png')",
         whatimg: "url('/src/images/what.jpeg')",
         howbg: "url('/src/images/how.jpeg')",
-        abtbg: "url('/src/images/profile.jpg')",
+        abtbg1: "url('/src/images/Maria.png')",
+        abtbg2: "url('/src/images/download-3.jpeg')",
+        abtbg3: "url('/src/images/download-4.jpeg')",
         mainabtbg: "url('/src/images/abt.jpg')",
         
       

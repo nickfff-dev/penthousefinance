@@ -58,7 +58,7 @@ const AboutUs = () => {
   
       <div className="p-4 md:p-12 text-center lg:text-left ">
         
-        <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg"></div>
+        <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg2"></div>
         
         <h1 className="text-3xl font-bold pt-8 lg:pt-0">Aaron Schultz </h1>
         <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-secondary dark:border-[#66584a] opacity-25"></div>
@@ -101,7 +101,7 @@ const AboutUs = () => {
 
     <div className="p-4 md:p-12 text-center lg:text-left">
       
-      <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg"></div>
+      <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg3"></div>
       
       <h1 className="text-3xl font-bold pt-8 lg:pt-0">Mark Davis </h1>
       <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-secondary dark:border-[#66584a] opacity-25"></div>
@@ -134,7 +134,7 @@ const AboutUs = () => {
 
     <div className="p-4 md:p-12 text-center lg:text-left">
       
-      <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg"></div>
+      <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg1"></div>
       
       <h1 className="text-3xl font-bold pt-8 lg:pt-0">Maria Bailey</h1>
       <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-secondary dark:border-[#66584a] opacity-25 "></div>
