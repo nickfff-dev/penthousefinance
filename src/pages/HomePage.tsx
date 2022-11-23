@@ -11,7 +11,7 @@ import Timeline from '../components/Timeline';
 function HomePage() {
   
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black pt-5 pb-5">
   
       <Herosection />
       <AfterHero />
