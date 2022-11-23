@@ -1,0 +1,36 @@
+
+
+
+.root  h1{
+  @apply text-4xl font-semibold text-left mb-8 
+}
+
+
+.root h2{
+  @apply text-xl  text-left mb-8 mt-5 
+}
+
+
+.root h3{
+  @apply text-lg text-black  text-left font-bold mt-3
+}
+
+
+.root p{
+  @apply text-base text-left 
+}
+
+.root p + p{
+  @apply mt-3
+}
+
+
+.root ul{
+  @apply list-none list-inside text-left
+}
+
+/* dark mode p */
+
+.root p.dark{
+  @apply text-gray-300
+}
