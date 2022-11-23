@@ -3,8 +3,8 @@
 
 const AboutUs = () => { 
   return (
-    <div className="dark:bg-bdark m-5 ">
-      <div className="grid lg:grid-cols-2 m-5 md:grid-cols-1 sm:grid-cols-1   border-b dark:border-[#66584a] border-yellow-100">
+    <div className="dark:bg-bdark m-5 rounded-3xl ">
+      <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1   border-b dark:border-[#66584a] border-yellow-100">
   
       <div className="flex items-start   rounded-l-3xl rounded-b-none lg:justify-start mobile:justify-center bg-primary dark:bg-bdark relative">
  
