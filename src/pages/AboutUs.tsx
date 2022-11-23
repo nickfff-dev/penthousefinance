@@ -43,7 +43,7 @@ const AboutUs = () => {
         </div>
       </main>
   </div>
-      <div className="pt-5 pb-5 bg-mainabtbg bg-center bg-no-repeat bg-cover lg:rounded-l-none lg:rounded-t-3xl mobile:rounded-b-3xl rounded-l-none  lg:h-auto mobile:h-[420px]  "  >
+      <div className="pt-5 pb-5 bg-mainabtbg bg-center bg-no-repeat bg-cover  rounded-b-3xl  lg:rounded-r-xl  mobile:rounded-b-3xl mobile:rounded-t-none lg:rounded-l-none  lg:h-auto mobile:h-[420px]  "  >
         
   </div>
   
