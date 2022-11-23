@@ -45,7 +45,9 @@ const AboutUs = () => {
   </div>
   
       </div>
-      <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-10 lg:my-0">
+
+      <div className="gap-5 mt-10">
+      <div className="max-w-4xl flex items-center h-auto  flex-wrap mx-auto my-10 lg:my-0">
     
    
     <div id="profile" className="w-full lg:w-3/5  shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
@@ -83,7 +85,7 @@ const AboutUs = () => {
   
   
       </div>
-      <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+      <div className="max-w-4xl flex items-center h-auto  flex-wrap mx-auto my-32 lg:my-0">
     
     <div className="w-full lg:w-2/5">
     
@@ -121,7 +123,7 @@ const AboutUs = () => {
 
 
       </div>
-      <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+      <div className="max-w-4xl flex items-center h-auto  flex-wrap mx-auto my-32 lg:my-0">
     
 
   <div id="profile" className="w-full lg:w-3/5   shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
@@ -159,7 +161,9 @@ const AboutUs = () => {
 
 
 </div>
-      
+
+      </div>
+           
     </div>
   )
 }
