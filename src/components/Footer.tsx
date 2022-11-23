@@ -2,7 +2,7 @@
 
 const Footer = () => { 
   return (
-      <div className="bg-primary dark:bg-bdark dark:text-white text-center">
+      <div className="bg-primary dark:bg-bdark dark:text-white text-center p-6">
         <footer className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 justify-items-center gap-5 lg:p-10 items-start  ">
         
 
@@ -16,27 +16,27 @@ const Footer = () => {
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">
           
-          <h1  className="text-newblack/90">INVEST</h1>
-          <h2  className="text-newblack/90"><a href="/how-it-works">How It Works</a></h2>
+          <h1  className="text-newblack/90 dark:text-primary">INVEST</h1>
+          <h2  className="text-newblack/90 dark:text-primary"><a href="/how-it-works">How It Works</a></h2>
           
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">
           
-          <h1  className="text-newblack/90">LEARN</h1>
-          <h2  className="text-newblack/90"><a href="/about-us">Our Story</a></h2>
+          <h1  className="text-newblack/90 dark:text-primary">LEARN</h1>
+          <h2  className="text-newblack/90 dark:text-primary"><a href="/about-us">Our Story</a></h2>
           
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5 ">
           
-          <h1 className="text-newblack/90">COMPANY</h1>
-          <h2  className="text-newblack/90"><a href="/terms-conditions">Terms</a></h2>
-          <h2  className="text-newblack/90" ><a href="/privacy-policy">Privacy Policy</a></h2>
+          <h1 className="text-newblack/90 dark:text-primary">COMPANY</h1>
+          <h2  className="text-newblack/90 dark:text-primary"><a href="/terms-conditions">Terms</a></h2>
+          <h2  className="text-newblack/90 dark:text-primary" ><a href="/privacy-policy">Privacy Policy</a></h2>
           
           
         </div>
        
       </footer>
-      <h1 className="mb-2 text-new-black">© Penthouse Finance 2022. All rights reserved</h1>
+      <h1 className=" text-new-black">© Penthouse Finance 2022. All rights reserved</h1>
       </div>
     )
 }
