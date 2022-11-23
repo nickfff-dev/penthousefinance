@@ -71,7 +71,7 @@ const stickyOnScroll = () => {
               <a href="/how-it-works" className="block  lg:text-lg uppercase  text-gray-700  rounded   md:p-0 dark:text-white dark:hover:text-secondary" aria-current="page">How It Works</a>
             </li>
             <li>
-              <a href="/" className="block  lg:text-lg   uppercase text-gray-700 rounded    md:p-0  dark:text-white  dark:hover:text-secondary ">About Us</a>
+              <a href="/about-us" className="block  lg:text-lg   uppercase text-gray-700 rounded    md:p-0  dark:text-white  dark:hover:text-secondary ">About Us</a>
             </li>
           
           </ul>

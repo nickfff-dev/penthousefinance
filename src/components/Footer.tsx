@@ -3,7 +3,7 @@
 const Footer = () => { 
   return (
       <div className="bg-primary dark:bg-bdark dark:text-white text-center">
-        <footer className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 justify-items-center gap-5 p-10 items-start  ">
+        <footer className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 justify-items-center gap-5 lg:p-10 items-start  ">
         
 
         <div className="flex flex-col  items-center lg:items-start md:items-center sm:items-center gap-y-5">
@@ -17,20 +17,20 @@ const Footer = () => {
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">
           
           <h1>INVEST</h1>
-          <h2>How It Works</h2>
+          <h2><a href="/how-it-works">How It Works</a></h2>
           
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">
           
           <h1>LEARN</h1>
-          <h2>Our Story</h2>
+          <h2><a href="/about-us">Our Story</a></h2>
           
         </div>
         <div className="flex flex-col lg:items-start md:items-center text-center gap-y-5">
           
           <h1>COMPANY</h1>
-          <h2>Terms</h2>
-          <h2>Privacy</h2>
+          <h2><a href="/terms-conditions">Terms</a></h2>
+          <h2><a href="/privacy-policy">Privacy Policy</a></h2>
           
           
         </div>
