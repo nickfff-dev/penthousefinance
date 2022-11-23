@@ -126,16 +126,16 @@ const Modal = (props: any) => {
                   </div>
                 </div>
                  <div>
-                  <label htmlFor="email" className="block mb-2 text-sm font-medium text-primary ">Your email</label>
-                  <input type="email" name="email" id="email" className="bg-transparent border-b border-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent   " placeholder="name@company.com" required />
+                 
+                  <input type="email" name="email" id="email" className="bg-transparent border-b border-secondary placeholder-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   " placeholder="name@company.com" required />
                 </div>
                 <div>
-                  <label htmlFor="password" className="block mb-2 text-sm font-medium text-primary ">Your password</label>
-                  <input type="password" name="password" id="password" placeholder="••••••••" className="bg-transparent border-b border-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent   " required />
+                  
+                  <input type="text" name="names" id="names" className="bg-transparent border-b border-secondary text-primary placeholder-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   " placeholder="First and Last Name" required />
                 </div>
                 <div>
-                  <label htmlFor="password" className="block mb-2 text-sm font-medium text-primary ">Your password</label>
-                  <input type="password" name="password" id="password" placeholder="••••••••" className="bg-transparent border-b border-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent   " required />
+                 
+                  <input type="phone" name="phone" id="password" placeholder="+1 234 567 8910 (Optional)" className="bg-transparent border-b border-secondary placeholder-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent   " required />
                 </div>
                 <div className="flex justify-between">
                   <div className="flex items-start">
@@ -144,11 +144,11 @@ const Modal = (props: any) => {
                     </div>
                     <label htmlFor="remember" className="ml-2 text-sm font-medium text-primary text-primary">Remember me</label>
                   </div>
-                  <a href="#" className="text-sm text-primary hover:underline ">Lost Password?</a>
+                  <a href="/" className="text-sm text-primary hover:underline ">Lost Password?</a>
                 </div>
-                <button type="submit" className="w-1/3 text-white bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  ">Login to your account</button>
+                <button type="submit" className="  text-black bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-2.5 text-center  ">Submit</button>
                 <div className="text-sm font-medium text-primary text-primary">
-                  Not registered? <a href="#" className="text-primary hover:underline">Create account</a>
+                  Not registered? <a href="/" className="text-primary  hover:underline">Create Account</a>
                 </div>
               </form>
             </div>
@@ -230,7 +230,7 @@ const stickyOnScroll = () => {
   }
   return (
     <div className="z-10" id="somena">
-      <nav className="  relative bg-primary dark:bg-bdark border-b border-yellow-100 dark:border-[#66584a]" id="navbar">
+      <nav className="relative bg-primary dark:bg-bdark border-b border-yellow-100 dark:border-[#66584a]" id="navbar">
 
 <div className="flex items-center justify-between p-4 gap-3">
   <div className="flex  md:order-3 order-2">
