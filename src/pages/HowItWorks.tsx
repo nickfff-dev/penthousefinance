@@ -15,7 +15,7 @@ const HowItWorks = () => {
 
       <div className="lg:my-24  py-19 lg:mx-20 ">
         <div className="">
-          <h3 className="lg:text-4xl text-xl mt-5 font-semibold mb-10 dark:text-gray-300 text-center lg:text-left sm:text-center md:text-center">HOW DOES PENTHOUSE <br/> WORK</h3>
+          <h3 className="lg:text-4xl text-xl mt-5 font-semibold mb-10 dark:text-gray-300 text-center text-secondary lg:text-left sm:text-center md:text-center">HOW DOES PENTHOUSE <br/> WORK</h3>
           <p className="dark:text-primary mb-10 text-lg leading-relaxed text-center lg:text-left sm:text-center md:text-center" >Earn passive income from the highest-yielding <br/>asset class in real estate</p>
           <a href="/" className="uppercase lg:mx-0 mx-auto mb-3 w-48 mobile:mx-auto dark:hover:bg-secondary flex items-center justify-center px-5 py-3  text-base leading-6 font-medium rounded-full text-black dark:text-black hover:text-white bg-secondary dark:bg-yellow-200  dark:hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 ">
         GET ACCESS

@@ -17,21 +17,21 @@ const AboutUs = () => {
        
             </h2>
     
-          <p className="mt-3 dark:text-gray-200 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+          <p className="mt-3 dark:text-gray-200 text-base  sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
           Penthouse allows you to co-invest into high-yield rental properties
 
 
           </p>
               <ul className="space-y-5">
-                <h1 className="dark:text-gray-200 text-base text-gray-500 text-xl">Benefits</h1>
-                <li className="dark:text-gray-200 text-base text-gray-500">1. Lower entry cost (as low as 100 BUSD)</li>
-                <li className="dark:text-gray-200 text-base text-gray-500">2. 100% hassle free</li>
-                <li className="dark:text-gray-200 text-base text-gray-500">3. Passive income and equity appreciation</li>
+                <h1 className="dark:text-gray-200 text-base text-xl">Benefits</h1>
+                <li className="dark:text-gray-200 text-base ">1. Lower entry cost (as low as 100 BUSD)</li>
+                <li className="dark:text-gray-200 text-base ">2. 100% hassle free</li>
+                <li className="dark:text-gray-200 text-base ">3. Passive income and equity appreciation</li>
 
           </ul>
-          <div className="mt-5 sm:mt-8 sm:flex lg:justify-start mobile:justify-center">
+          <div className="mt-5  w-2/4 sm:mt-8 sm:flex lg:justify-start mobile:justify-center">
             <div className="rounded-full shadow">
-              <a href="/" className="w-full flex items-center justify-center px-8 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-10 dark:text-black">
+              <a href="/" className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-black">
                 Reserve Your Seat
               </a>
             </div>
