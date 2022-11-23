@@ -137,19 +137,24 @@ const Modal = (props: any) => {
                  
                   <input type="phone" name="phone" id="password" placeholder="+1 234 567 8910 (Optional)" className="bg-transparent border-b border-secondary placeholder-primary text-primary text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-transparent   " required />
                 </div>
-                <div className="flex justify-between">
+              <div className="flex flex-col justify-between">
+              <p className="text-primary">What is your preferred contact mode?</p>
                   <div className="flex items-start">
                     <div className="flex items-center h-5">
-                      <input id="remember" type="checkbox" value="" className="w-4 h-4 text-primary rounded border border-primary  " required />
+                      <input id="emailrem" type="checkbox" value="" className="w-4 h-4 text-primary rounded border border-primary  " required />
                     </div>
-                    <label htmlFor="remember" className="ml-2 text-sm font-medium text-primary text-primary">Remember me</label>
+                    <label htmlFor="emailrem" className="ml-2 text-sm font-medium text-primary text-primary">Email</label>
+                </div>
+                <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input id="phonerem" type="checkbox" value="" className="w-4 h-4 text-primary rounded border border-primary  " required />
+                    </div>
+                    <label htmlFor="phonerem" className="ml-2 text-sm font-medium text-primary text-primary">Phone</label>
                   </div>
-                  <a href="/" className="text-sm text-primary hover:underline ">Lost Password?</a>
+             
                 </div>
-                <button type="submit" className="  text-black bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-2.5 text-center  ">Submit</button>
-                <div className="text-sm font-medium text-primary text-primary">
-                  Not registered? <a href="/" className="text-primary  hover:underline">Create Account</a>
-                </div>
+                <button type="submit" className="  text-black bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-lg px-6 py-2.5 text-center  ">Submit</button>
+             
               </form>
             </div>
     </div>
