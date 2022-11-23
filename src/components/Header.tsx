@@ -234,7 +234,7 @@ const stickyOnScroll = () => {
     console.log(show)
   }
   return (
-    <div className="z-10" id="somena">
+    <div className="z-10 relative" id="somena">
       <nav className="relative bg-primary dark:bg-bdark border-b border-yellow-100 dark:border-[#66584a]" id="navbar">
 
 <div className="flex items-center justify-between p-4 gap-3">
@@ -250,7 +250,7 @@ const stickyOnScroll = () => {
     </button>
     <SwitchDarkMode/>
   </div>
-<div className="md:order-2 md:-ml-12  bg-logo1 dark:bg-logo2 bg-no-repeat bg-center w-60 bg-contain  mobile:bg-contain h-14 "></div>
+          <a href="/" className="md:order-2 md:-ml-12  bg-logo1 dark:bg-logo2 bg-no-repeat bg-center w-60 bg-contain  mobile:bg-contain h-14 ">{ }</a>
   <div className={`${show ? "block" : "hidden"} items-center justify-between   md:flex  md:block md:order-1`} id="cta">
     <ul className="flex flex-col m-2 p-2 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8  md:mt-0 md:text-sm md:font-medium md:border-0   ">
       <li>
