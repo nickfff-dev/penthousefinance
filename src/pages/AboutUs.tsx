@@ -48,7 +48,7 @@ const AboutUs = () => {
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-10 lg:my-0">
     
    
-    <div id="profile" className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+    <div id="profile" className="w-full lg:w-3/5  shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
     
   
       <div className="p-4 md:p-12 text-center lg:text-left">
@@ -71,7 +71,7 @@ const AboutUs = () => {
     </div>
     <div className="w-full lg:w-2/5">
       
-      <img src="https://penthouse.finance/wp-content/uploads/2022/10/download-3.jpeg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+      <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
       
       
     </div>
@@ -87,11 +87,11 @@ const AboutUs = () => {
     
     <div className="w-full lg:w-2/5">
     
-    <img src="https://penthouse.finance/wp-content/uploads/2022/10/download-4.jpeg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+    <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
     
     
   </div>
-  <div id="profile" className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+  <div id="profile" className="w-full lg:w-3/5  shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
   
 
     <div className="p-4 md:p-12 text-center lg:text-left">
@@ -124,7 +124,7 @@ const AboutUs = () => {
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
     
 
-  <div id="profile" className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+  <div id="profile" className="w-full lg:w-3/5   shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
   
 
     <div className="p-4 md:p-12 text-center lg:text-left bg-primary">
@@ -148,7 +148,7 @@ const AboutUs = () => {
   
   <div className="w-full lg:w-2/5">
     
-    <img src="https://penthouse.finance/wp-content/uploads/2022/11/Maria.png" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+    <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
     
     
   </div>
