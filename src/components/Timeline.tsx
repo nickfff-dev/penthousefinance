@@ -53,7 +53,7 @@ const Timeline: FC<TimelineProps> = ({
     >
       <div className="relative  grid sm:grid-cols-2 lg:grid-cols-4  gap-6 items-start justify-center ">
       <img
-          className="lg:block md:hidden absolute -top-3 mobile:hidden sm:hidden   object-cover w-full"
+          className="lg:block md:hidden absolute -top-3 mobile:hidden sm:hidden hidden  object-cover w-full"
           src={VectorImg}
           alt="vector"
         />
