@@ -32,7 +32,7 @@ const HowItWorks = () => {
     </div>
     
 
-        <div className="bg-primary dark:bg-bdark rounded-3xl  m-5">
+        <div className="bg-primary dark:bg-bdark rounded-3xl pt-8  m-5">
     <div className="rounded-3xl grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1  gap-5 p-5 ">
     <div className="lg:p-12  p-4 text-center lg:text-left md:text-center sm:text-center rounded-3xl border border-black dark:border-[#66584a]">
         <p className="dark:text-black dark:bg-yellow-100 bg-secondary px-4 py-1 inline-block   text-xl text-primary font-medium rounded mb-5">1</p>
@@ -56,10 +56,16 @@ const HowItWorks = () => {
 
       </div>
     </div>
+    <div className="flex flex-col justify-center items-center pb-8">      <a href="/" className=" px-8 py-3  uppercase dark:text-black text-base leading-6 font-medium text-black rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:bg-secondary hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+              Start Now
+              </a></div>
     
+        </div>
+  
+      </div>
+ 
     
     </div>
-  </div></div>
 
 
 
