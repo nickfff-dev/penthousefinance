@@ -2,9 +2,31 @@
 import image1 from "../images/Maria.png"
 import image2 from "../images/download-3.jpeg"
 import image3 from "../images/download-4.jpeg"
+import { useEffect, useState } from "react"
+import Modal from "../components/Modal"
 
-const AboutUs = () => { 
-  return (
+const AboutUs = () => {
+  const [modal, setModal] = useState(false)
+  useEffect(() => {
+    if (modal === true) {
+
+      document.getElementById("exampleModal")?.classList.remove("hidden");
+
+    }
+    else if (modal === false) {
+      document.getElementById("exampleModal")?.classList.add("hidden");
+    }
+
+
+  }, [modal])
+
+  const toggleModdle = () => {
+    setModal(!modal)
+  }
+  const closeModal = () => { 
+    setModal(false)
+  }
+  return (<>
     <div className="dark:bg-black">
       <div className="pt-5 pb-5">
       <div className="grid m-5 lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1  dark:border-[#66584a]  rounded-3xl  dark:bg-bdark border-yellow-100">
@@ -34,9 +56,9 @@ const AboutUs = () => {
           </ul>
           <div className="mt-5 lg:mx-0  sm:mx-auto mx-auto  w-2/4 sm:mt-8 sm:flex lg:justify-start mobile:justify-center">
             <div className="rounded-full shadow">
-              <a href="/" className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-black">
+              <button onClick={toggleModdle} className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-black">
                 Reserve Your Seat
-              </a>
+              </button>
             </div>
 
           </div>
@@ -167,8 +189,10 @@ const AboutUs = () => {
 
       </div>
            
+      </div>
+      
     </div>
-    </div>
+    <Modal closeModal={closeModal} /></>
   )
 }
 
