@@ -3,12 +3,13 @@
 
 const AboutUs = () => { 
   return (
-    <div className="dark:bg-bdark m-5 rounded-3xl ">
-      <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1   border-yellow-100">
+    <div className="dark:bg-black">
+      <div className="pt-5 pb-5">
+      <div className="grid m-5 lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1  dark:border-[#66584a]  rounded-3xl  dark:bg-bdark border-yellow-100">
   
-      <div className="flex items-start lg:rounded-r-none   lg:rounded-l-3xl mobile:rounded-t-3xl rounded-b-none lg:justify-start mobile:justify-center bg-primary dark:bg-bdark relative">
+      <div className="flex items-start mobile:rounded-t-3xl lg:rounded-r-none lg:rounded-l-3xl lg:justify-start mobile:justify-center bg-primary dark:bg-bdark relative">
  
-        <main className="p-6 ">
+        <main className="p-6">
         
           <div className="lg:text-left mobile:text-center items-center  flex-col space-y-9">
           
@@ -29,7 +30,7 @@ const AboutUs = () => {
                 <li className="dark:text-gray-200 text-base ">3. Passive income and equity appreciation</li>
 
           </ul>
-          <div className="mt-5 lg:mx-0 sm:mx-auto w-2/4 sm:mt-8 sm:flex lg:justify-start mobile:justify-center">
+          <div className="mt-5 lg:mx-0  sm:mx-auto mx-auto  w-2/4 sm:mt-8 sm:flex lg:justify-start mobile:justify-center">
             <div className="rounded-full shadow">
               <a href="/" className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-white bg-secondary dark:bg-yellow-200 dark:hover:text-black hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-black">
                 Reserve Your Seat
@@ -46,14 +47,14 @@ const AboutUs = () => {
   
       </div>
 
-      <div className="gap-5 p-4 mt-10 bg-primary dark:bg-bdark dark:border  dark:border-[#66584a]  m-5 rounded-3xl">
+      <div className="gap-5 p-4 mt-10 bg-primary dark:bg-bdark m-5 rounded-3xl">
       <div className="max-w-4xl flex items-center h-auto  flex-wrap mx-auto my-10 lg:my-0">
     
    
     <div id="profile" className="w-full lg:w-3/5  shadow-2xl bg-white opacity-75 mx-6 lg:mx-0 dark:opacity-100">
     
   
-      <div className="p-4 md:p-12 text-center lg:text-left">
+      <div className="p-4 md:p-12 text-center lg:text-left ">
         
         <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center bg-abtbg"></div>
         
@@ -164,6 +165,7 @@ const AboutUs = () => {
 
       </div>
            
+    </div>
     </div>
   )
 }
