@@ -1,5 +1,5 @@
 
-import logo2 from '../images/Penthouse2.png';
+
 const Footer = () => { 
   return (
       <div className="bg-primary dark:bg-bdark dark:text-white text-center">
