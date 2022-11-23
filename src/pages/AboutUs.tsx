@@ -1,5 +1,7 @@
 
-
+import image1 from "../images/Maria.png"
+import image2 from "../images/download-3.jpeg"
+import image3 from "../images/download-4.jpeg"
 
 const AboutUs = () => { 
   return (
@@ -74,7 +76,7 @@ const AboutUs = () => {
     </div>
     <div className="w-full lg:w-2/5">
       
-      <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+      <img src={image2} className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
       
       
     </div>
@@ -90,7 +92,7 @@ const AboutUs = () => {
     
     <div className="w-full lg:w-2/5">
     
-    <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+    <img src={image3} className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
     
     
   </div>
@@ -151,7 +153,7 @@ const AboutUs = () => {
   
   <div className="w-full lg:w-2/5">
     
-    <img src="https://images.unsplash.com/photo-1535982368253-05d640fe0755?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0MDM5MzAyNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
+    <img src={image1} className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="abt"/>
     
     
   </div>
