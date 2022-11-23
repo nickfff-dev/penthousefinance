@@ -20,7 +20,7 @@ module.exports = {
         abtbg1: "url('/src/images/Maria.png')",
         abtbg2: "url('/src/images/download-3.jpeg')",
         abtbg3: "url('/src/images/download-4.jpeg')",
-        mainabtbg: "url('/src/images/abt.jpg')",
+        mainabtbg: "url('/src/images/aboutbg.jpeg')",
         modalbg: "url('/src/images/modalbg.jpg')",
       
       }),
