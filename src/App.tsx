@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import HowItWorks from './pages/HowItWorks';
 import AboutUs from './pages/AboutUs';
 import TermsConditions from './pages/TermsandConditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
       </Routes>
       <Footer />
       </Router>
