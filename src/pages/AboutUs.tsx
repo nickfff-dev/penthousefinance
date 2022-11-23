@@ -4,9 +4,9 @@
 const AboutUs = () => { 
   return (
     <div className="dark:bg-bdark m-5 rounded-3xl ">
-      <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1   border-b dark:border-[#66584a] border-yellow-100">
+      <div className="grid lg:grid-cols-2  md:grid-cols-1 sm:grid-cols-1   border-yellow-100">
   
-      <div className="flex items-start   rounded-l-3xl rounded-b-none lg:justify-start mobile:justify-center bg-primary dark:bg-bdark relative">
+      <div className="flex items-start lg:rounded-r-none   lg:rounded-l-3xl mobile:rounded-t-3xl rounded-b-none lg:justify-start mobile:justify-center bg-primary dark:bg-bdark relative">
  
         <main className="p-6 ">
         
@@ -40,7 +40,7 @@ const AboutUs = () => {
         </div>
       </main>
   </div>
-      <div className="pt-5 pb-5 bg-mainabtbg bg-center bg-no-repeat bg-cover rounded-t-3xl rounded-l-none  lg:h-auto mobile:h-[420px]  "  >
+      <div className="pt-5 pb-5 bg-mainabtbg bg-center bg-no-repeat bg-cover lg:rounded-l-none lg:rounded-t-3xl mobile:rounded-b-3xl rounded-l-none  lg:h-auto mobile:h-[420px]  "  >
         
   </div>
   
