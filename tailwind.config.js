@@ -8,7 +8,7 @@ module.exports = {
         "primary": "#faf7f4",
         "secondary": "#ffc800",
         "bdark": "#202124",
-        "black": "#000000E0"
+        "newblack": "#252525"
       }, 
       backgroundImage: theme => ({
         heroimage: "url('/src/images/hero.jpeg')",

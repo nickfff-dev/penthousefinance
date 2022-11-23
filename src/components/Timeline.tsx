@@ -65,13 +65,13 @@ const Timeline: FC<TimelineProps> = ({
             >
               <div className="mb-5 sm:mb-10 lg:mb-20 max-w-[100px] mx-auto">
                 <img src={item.img} alt={item.title} /></div>
-              <span className="nc-Badge inline-flex px-2.5 py-1 mb-4 rounded-full text-black font-medium text-xs bg-yellow-100">{`Step: ${item.id}` }</span>
+              <span className="nc-Badge inline-flex px-2.5 py-1 mb-4 rounded-full text-newblack font-medium text-xs bg-yellow-100">{`Step: ${item.id}` }</span>
               <div className="text-center mb-8">
-                <h3 className="text-lg font-semibold  dark:text-yellow-100">{item.title}</h3>
-                <p className="text-neutral-500 dark:text-gray-300">
+                <h3 className="text-lg font-semibold  text-newblack/90 dark:text-yellow-100">{item.title}</h3>
+                <p className="text-newblack/80 dark:text-gray-300">
                 {item.desc}
                 </p>
-                <p className="text-gray-600 dark:text-yellow-100 mt-5 ">
+                <p className="text-newblack dark:text-yellow-100 mt-5 ">
                 {item.date}
                 </p>
                 
