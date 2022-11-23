@@ -43,7 +43,7 @@ const DEMO_DATA = [
   },
 ]
 const Timeline: FC<TimelineProps> = ({
-  className = "bg-primary dark:bg-bdark m-5 rounded-3xl p-6",
+  className = "bg-primary dark:bg-bdark m-5 rounded-3xl pt-9 px-2",
   data = DEMO_DATA,
 }) => {
   return (
