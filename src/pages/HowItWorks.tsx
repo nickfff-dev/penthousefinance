@@ -70,7 +70,7 @@ const HowItWorks = () => {
                       } else {
                         setMymodal(true)
                       }
-                    }} className=" px-8 py-3  uppercase dark:text-black text-base leading-6 font-medium text-newblack rounded-full  bg-secondary dark:bg-yellow-200 dark:hover:bg-secondary hover:text-black focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                    }} className=" px-8 py-3  uppercase dark:text-black text-base leading-6 font-medium text-newblack rounded-full  bg-secondary dark:bg-yellow-200 dark:hover:bg-secondary hover:text-primary focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
               Start Now
               </button></div>
     

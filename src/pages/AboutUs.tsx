@@ -45,7 +45,7 @@ const AboutUs = () => {
                       }
                     }
               
-              } className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-newblack bg-secondary dark:bg-yellow-200 dark:hover:text-newblack hover:text-newblack focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-newblack">
+              } className="w-full flex items-center justify-center px-5 py-3 uppercase text-base leading-6 font-medium rounded-full text-newblack bg-secondary dark:bg-yellow-200 dark:hover:text-newblack hover:text-primary focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:text-lg  dark:text-newblack">
                 Reserve Your Seat
               </button>
             </div>

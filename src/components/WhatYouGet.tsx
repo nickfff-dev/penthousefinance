@@ -52,7 +52,7 @@ const WhatYouGet = () => {
             } else {
               setMymodal(true)
             }
-          }} className="uppercase  dark:hover:bg-secondary flex items-center justify-center px-4 py-2.5 text-newblack  text-base leading-6 font-medium rounded-full dark:text-newblack hover:text-newblack bg-secondary dark:bg-yellow-200  dark:hover:text-newblack focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-5 ">
+          }} className="uppercase  dark:hover:bg-secondary flex items-center justify-center px-4 py-2.5 text-newblack  text-base leading-6 font-medium rounded-full dark:text-newblack hover:text-primary bg-secondary dark:bg-yellow-200  dark:hover:text-newblack focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-3 md:text-lg md:px-5 ">
                JOIN NOW
               </button>
           </div>

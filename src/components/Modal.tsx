@@ -151,7 +151,7 @@ const Modal = (props: any) => {
                   </div>
              
                 </div>
-                <button type="submit" className="text-newblack bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-lg px-6 py-2.5 text-center  ">Submit</button>
+                <button type="submit" className="text-newblack hover:text-primary bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-lg px-6 py-2.5 text-center  ">Submit</button>
              
               </form>
             </div>
